@@ -32,6 +32,7 @@ def DPLL(F):
     if F == []:
         return "satisfazível"
     # Falta resto da lógica
+    # assumir valor verdadeiro ou falso para cada variavel e seguir o processo de simplificacao
 
 def main():
     F = ler_cnf('aim-100-2_0-no-1.cnf') # Insira o nome do arquivo cnf
