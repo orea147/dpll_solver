@@ -25,6 +25,14 @@ def simplifica(F):
                 c.remove(-unitaria)
     return F
 
+def DPLL(F):
+    F = simplifica(F)
+    if [] in F:
+        return "insatisfazível"
+    if F == []:
+        return "satisfazível"
+    # Falta resto da lógica
+
 def main():
     F = ler_cnf('aim-100-2_0-no-1.cnf') # Insira o nome do arquivo cnf
     result = DPLL(F)
