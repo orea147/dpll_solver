@@ -1,4 +1,7 @@
 # Relatório: Solver de Satisfatibilidade CNF (DPLL)
+
+![image](https://github.com/orea147/dpll_solver/assets/118187319/363303d4-20c6-4be3-b3db-792d462a0710)
+
 Este relatório visa fornecer uma explicação detalhada do código Python que implementa o algoritmo DPLL (Davis-Putnam-Logemann-Loveland) para resolver problemas de satisfatibilidade em forma normal conjuntiva (CNF).
 
 # Resumo
